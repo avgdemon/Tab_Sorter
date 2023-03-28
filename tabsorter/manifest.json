@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TabSorter",
+  "version": "1.0.0",
+  "description": "Sorts all open tabs by website and then alphabetically",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Sort Tabs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
